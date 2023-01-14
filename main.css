@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+html,body,main{
+    height: 100%;
+    width: 100%;
+    margin:0;
+    padding: 0;
+}
+body{
+    height: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+    /* height: 100px; */
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 74px;
+    margin-left:  15px;
+    /* border: 2px solid blanchedalmond; */
+}
+.menu{
+    display: flex;
+    color: #FFF;
+    /* border: 2px solid blanchedalmond */
+}
+.menu li{
+    list-style: none;
+    margin: auto 20px;          
+}
+.titulo{
+    font-size: 36px;
+    color: #FFF;
+    background : linear-gradient(rgba(0,0,0,0.5),rgba(150,150,150,0.8)),url(./images/background_fiobela.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.servicios{
+    padding: 25px;
+    bottom: 0;
+    text-align: center;
+}
+.servicios h2{
+    font-size: 36px;
+    color: #0098ef;
+    font-weight: 500;
+}
+.servicio-detalle{
+    display: flex;
+    justify-content: center;
+}
+
+.servicio-detalle img{
+    width: 350px;
+    margin: 20px;
+}
+
